@@ -1,0 +1,98 @@
+body {
+    font-size: 62.5%;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    background-color: cornsilk;
+    color: darkslategrey;
+    max-width: 1280px;
+}
+
+#page-wrap {
+    width: 85%; /* 1040px */
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+
+/* TO GET THE EM....
+   target / context = result
+   context : parent or ancestor element
+   whichever is defined by the CSS or browser */
+
+img {
+    max-width: 100%;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 3.6em; /* 36px */
+}
+
+h1 a {
+    font-size: 0.4722em; /* 17px */
+}
+
+h2 {
+    font-size: 3.1em; /* 31px */
+}
+
+h3 {
+    font-size: 2.6em; /* 26px */
+}
+
+p {
+    font-size: 1.7em; /* 17px */
+}
+
+li {
+    font-size: 1.8em; /* 18px */
+}
+
+a {
+    text-decoration: none;
+    color: skyblue;
+}
+
+.main_content {
+    background-color: antiquewhite;
+    width: 63.07692308%; /* 656px */
+    margin: 0 0.96153846%;
+    padding: 5px .48076923%;
+    float: left;
+}
+
+.sidebar {
+    background-color: blanchedalmond;
+    width: 31.05769231%; /* 323px */
+    margin: 0 0.96153846% 20px;
+    padding: 5px .48076923%;
+    float: left;
+}
+
+footer {
+    clear: both;
+    background-color: beige;
+    margin: 0 0.96153846%;
+    padding: 5px .48076923%;
+}
+
+/* -------------------------------------- Media Queries ---------------------------------------------- */
+
+@media screen and (min-width: 760px) and (max-width: 906px) {
+    .main_content, .sidebar{
+        width: 47%;
+    }
+}
+
+@media screen and (max-width: 759px) {
+    .main_content, .sidebar{
+        width: 97%;
+        float: none;
+    }
+}
+
+
