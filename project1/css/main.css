@@ -1,0 +1,288 @@
+body {
+    font-size: 62.5%;
+    font-family: Tahoma, Geneva, sans-serif;
+    background-color: #CEBDB0;
+    color: #2D2D2D;
+    max-width: 1040px;
+}
+
+#page-wrap {
+    width: 85%; /* 884px */
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: "Vanilla";
+    src: url("../fonts/Vanilla.ttf");
+}
+
+img {
+    max-width: 100%;
+}
+
+/* ---------------------- Banner ---------------------- */
+
+.banner {
+    margin: 0 auto;
+    position: relative;
+}
+
+.banner h1 {
+    position: absolute;
+    top: 55%;
+    left: 10%%;
+    width: 100%;
+    font-size-adjust: inherit;
+    font-stretch: inherit;
+    -webkit-text-stroke: 1px #000000;
+}
+
+.banner h4 {
+    position: absolute;
+    top: 61.5%;
+    left: 10%%;
+    width: 100%;
+    font-size-adjust: inherit;
+    font-stretch: inherit;
+    -webkit-text-stroke: 1px #000000;
+}
+
+/* ---------------------- Nav Styling ---------------------- */
+
+nav {
+    font-size: 1em;
+    padding: 1.4423%;
+    background: url("../img/bone.gif") no-repeat;
+    background-size: 100% auto;
+    height: 80px;
+    margin-bottom: 2.4038461%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 2.7% 0 0 0;
+    font-size: .9em;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    padding-left: 1.4423%;
+}
+
+a {
+    font-family: Vanilla, sans-serif;
+    text-decoration: none;
+    color: #9FC48C;
+}
+
+a:hover {
+    color: #3A4932;
+}
+
+/* Fonts */
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    -webkit-text-stroke: 1px #000000;
+}
+
+h1 {
+    font-family: Vanilla, sans-serif;
+    font-size: 4.3em; /* 43px */
+    color: #9FC48C;
+}
+
+h2 {
+    font-family: Vanilla, sans-serif;
+    font-size: 3.1em; /* 31px */
+    color: #9FC48C;
+    margin-top: 10px;
+}
+
+h3 {
+    font-family: Vanilla, sans-serif;
+    font-size: 2.6em; /* 26px */
+    color: #9FC48C;
+}
+
+h4 {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 2.6em; /* 26px */
+}
+
+p {
+    font-size: 1.5em; /* 15px */
+}
+
+li {
+    font-size: 1.7em; /* 17px */
+}
+
+/* Content Stuff */
+
+.main_content {
+    background-color: #DBD4CE;
+    border-radius: 25px;
+    width: 63.07692308%; /* 656px */
+    margin: 0 0.96153846%;
+    padding: 0px .48076923%;
+    float: left;
+}
+
+/* About Me */
+
+#about_me {
+    float: left;
+    padding: 15px 15px 15px 0;
+}
+
+/* My Family */
+
+.content2 {
+    background-color: #DBD4CE;
+    border-radius: 25px;
+    width: 63.07692308%; /* 656px */
+    margin: 10px 0.96153846%;
+    padding: 0px .2% 0 .7%;
+    float: left;
+}
+
+.content2 > img {
+    float: right;
+    padding: 15px 0 15px 15px;
+}
+
+/* Likes & Dislikes */
+.sidebar {
+    background-color: #DBD4CE;
+    border-radius: 25px;
+    width: 31.05769231%; /* 323px */
+    margin: 0 0.96153846% 20px;
+    padding: 0px .48076923%;
+    float: right;
+}
+
+.sidebar li:nth-child(even) {
+    background-color: #DBCFC7;
+}
+
+ul li {
+    list-style-image: url("../img/paw.gif");
+}
+
+/* Footer */
+
+footer {
+    clear: both;
+    background: url("../img/bone.gif") no-repeat;
+    background-size: 100% auto;
+    height: 100px;
+    margin: 0 0.96153846%;
+    padding: 2.7% .48076923% 0 3.365384%;
+}
+
+
+
+/* -------------------------------------- Media Queries ---------------------------------------------- */
+
+
+@media screen and (min-width: 566px) and (max-width: 759px) {
+    .main_content, .content2, .sidebar{
+        width: 97%;
+        float: none;
+        padding: 1.442307%;
+        margin-bottom: 10px;
+    }
+
+    footer {
+        padding: 1.5% 2.7%;
+    }
+}
+
+@media screen and (min-width: 479px) and (max-width: 565px) {
+    .main_content, .content2, .sidebar{
+        width: 97%;
+        float: none;
+        padding: 1.442307%;
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        font-size: 3.3em;
+    }
+
+    h4 {
+        font-size: 2.2em;
+    }
+
+    nav {
+        padding: .5% 2.7%;
+        font-size: .9em;
+    }
+
+    footer {
+        padding: .5% 2.7%;
+    }
+
+}
+
+@media screen and (max-width: 478px) {
+    .main_content, .content2, .sidebar{
+        width: 97%;
+        float: none;
+        padding: 1.442307%;
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    h3 {
+        font-size: 1.8em;
+    }
+
+    h4 {
+        font-size: 1.6em;
+    }
+
+    nav {
+        background: #DBD4CE;
+        border-radius: 25px;
+        height: 25px;
+        padding: 0;
+        font-size: .8em;
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+
+    .sidebar ul li {
+        font-size: 1.3em;
+    }
+
+    #parents {
+        float: none;
+    }
+
+    footer {
+        background: #DBD4CE;
+        border-radius: 25px;
+        height: 25px;
+        margin: 10px;
+        padding: 1px .5%;
+        font-size: .8em;
+    }
+}
