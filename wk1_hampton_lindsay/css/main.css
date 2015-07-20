@@ -4,17 +4,17 @@ body {
     background-color: #CEBDB0;
     color: #2D2D2D;
     max-width: 1040px;
+    margin: 0 auto;
 }
 
 #page-wrap {
     width: 85%; /* 884px */
-    margin: 0 auto;
     overflow: hidden;
+    margin: 0 auto;
 }
 
 @font-face {
-    font-family: "Vanilla";
-    src: url("../fonts/Vanilla.ttf");
+    ;
 }
 
 img {
@@ -24,14 +24,13 @@ img {
 /* ---------------------- Banner ---------------------- */
 
 .banner {
-    margin: 0 auto;
     position: relative;
 }
 
-.banner h1 {
+.banner h1, .banner h4 {
     position: absolute;
     top: 55%;
-    left: 10%%;
+    left: 10%;
     width: 100%;
     font-size-adjust: inherit;
     font-stretch: inherit;
@@ -39,32 +38,24 @@ img {
 }
 
 .banner h4 {
-    position: absolute;
     top: 61.5%;
-    left: 10%%;
-    width: 100%;
-    font-size-adjust: inherit;
-    font-stretch: inherit;
-    -webkit-text-stroke: 1px #000000;
 }
 
 /* ---------------------- Nav Styling ---------------------- */
 
 nav {
-    font-size: 1em;
-    padding: 1.4423%;
+    font-size: 1.3em;
+    padding: 3.36538%;
     background: url("../img/bone.gif") no-repeat;
     background-size: 100% auto;
-    height: 80px;
+    height: 120px;
     margin-bottom: 2.4038461%;
 }
 
 nav ul {
     list-style-type: none;
     margin: 2.7% 0 0 0;
-    font-size: .9em;
-    font-family: Tahoma, Geneva, sans-serif;
-    font-weight: bold;
+    font: .9em bold;
     text-align: center;
     border: none;
     padding: 0;
@@ -72,7 +63,7 @@ nav ul {
 
 nav li {
     display: inline;
-    padding-left: 1.4423%;
+    padding-left: 3.36538%;
 }
 
 a {
@@ -140,7 +131,7 @@ li {
 
 #about_me {
     float: left;
-    padding: 15px 15px 15px 0;
+    padding: 15px 10px 10px 0;
 }
 
 /* My Family */
@@ -177,13 +168,17 @@ ul li {
     list-style-image: url("../img/paw.gif");
 }
 
+ul {
+    padding-bottom: 20px;
+}
+
 /* Footer */
 
 footer {
     clear: both;
     background: url("../img/bone.gif") no-repeat;
     background-size: 100% auto;
-    height: 100px;
+    height: 120px;
     margin: 0 0.96153846%;
     padding: 2.7% .48076923% 0 3.365384%;
 }
@@ -193,7 +188,7 @@ footer {
 /* -------------------------------------- Media Queries ---------------------------------------------- */
 
 
-@media screen and (min-width: 566px) and (max-width: 759px) {
+@media screen and (min-width: 612px) and (max-width: 759px) {
     .main_content, .content2, .sidebar{
         width: 97%;
         float: none;
@@ -206,7 +201,7 @@ footer {
     }
 }
 
-@media screen and (min-width: 479px) and (max-width: 565px) {
+@media screen and (min-width: 479px) and (max-width: 611px) {
     .main_content, .content2, .sidebar{
         width: 97%;
         float: none;
@@ -223,8 +218,9 @@ footer {
     }
 
     nav {
-        padding: .5% 2.7%;
+        padding: 3.36538%;
         font-size: .9em;
+        height: 60px;
     }
 
     footer {
