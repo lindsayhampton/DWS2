@@ -20,7 +20,7 @@ img {
 
 header > img {
     float: left;
-    position: relative;
+    padding-left: 1%;
 }
 
 #tagline {
@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 h1 {
-    font-size: 3.6em; /* 43px */
+    font-size: 3.6em; /* 36px */
     color: #b33624;
 }
 
@@ -103,7 +103,7 @@ h3 {
 }
 
 h4 {
-    font-size: 2.1em; /* 19px */
+    font-size: 2.1em; /* 21px */
     color: #b33624;
 }
 
@@ -158,6 +158,53 @@ footer {
 /* -------------------------------------- Media Queries ---------------------------------------------- */
 
 
-@media screen and (min-width: 566px) and (max-width: 759px) {
+@media screen and (max-width: 880px) {
+    p {
+        display: none;
+    }
+
+    h1 {
+    font-size: 2.8em;
+    }
+
+    h2 {
+        font-size: 2.5em;
+    }
 }
 
+@media screen and (max-width: 645px) {
+    h1 {
+        font-size: 2.1em;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+
+    h3 {
+        font-size: 2.1em;
+    }
+
+}
+@media screen and (max-width: 485px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    h3 {
+        font-size: 1.8em;
+    }
+
+    nav li {
+        display: block;
+        padding: none;
+    }
+
+    #tagline {
+        clear: both;
+    }
+}
