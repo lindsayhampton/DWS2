@@ -23,13 +23,6 @@ header > img {
     position: relative;
 }
 
-#button {
-    display: block;
-    background: url("../img/button.gif") no-repeat;
-    width:100%;
-    color: rgba(0,0,0,0);
-    border-radius: 25px;
-}
 
 /* ---------------------- Nav Styling ---------------------- */
 
@@ -129,6 +122,11 @@ li {
     width: 130px;
     margin: 0 auto;
     color: rgba(0, 0, 0, 0);
+}
+
+#tagline a:hover {
+    background: url("../img/button2.gif") no-repeat;
+    margin: 0 auto;
 }
 
 #border {

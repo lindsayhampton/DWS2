@@ -1,0 +1,93 @@
+body {
+    background: url("../images/background.png") repeat;
+}
+
+.box {
+    background-color: #FFFFFF;
+    height: 100px;
+    margin-top: 45px;
+}
+
+.box img {
+    background-color: #FFF;
+    border-radius: 15px;
+    float: left;
+    padding: 5px;
+}
+
+form {
+    background-color: #FFFFFF;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.border {
+    border-bottom: solid 1px #c1c1c1;
+    margin: 15px;
+}
+
+@font-face {
+    font-family: "Vanilla";
+    src: url("../fonts/Vanilla.ttf");
+}
+
+
+.personalinfo {
+    padding-top: 15px;
+    width: 400px;
+}
+
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+    height: 45px;
+    margin: 25px 0 0 35px;
+}
+
+.main_nav h1 {
+    margin-top: 65px;
+    padding-left: 40%;
+    font-family: Vanilla, sans-serif;
+    color: #562404;
+    font-weight: bold;
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 50px 0 0 0;
+    padding: 2px 15px;
+    color: #FFF;
+    background-color: #eb7031;
+}
+
+@media screen and (max-width: 1102px) {
+   .main_nav a {
+       width: 15%;
+       padding: 3px;
+   }
+}
+
+@media screen and (max-width: 802px) {
+    .main_nav a {
+        margin: 15px 3%;
+        width: 95%;
+        padding: 3px;
+    }
+
+    h1 {
+        display: none;
+    }
+
+    .button,
+    button,
+    input[type="submit"],
+    input[type="reset"],
+    input[type="button"] {
+        height: 45px;
+        width: 80%;
+        margin: 25px 0 0 35px;
+    }
+}
