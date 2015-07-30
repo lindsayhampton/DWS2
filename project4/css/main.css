@@ -23,6 +23,24 @@ header > img {
     position: relative;
 }
 
+#tagline {
+    padding: 20px 0;
+}
+
+#tagline a {
+    display: block;
+    background: url("../img/button.gif") no-repeat;
+    height: 70px;
+    width: 130px;
+    margin: 0 auto;
+    color: rgba(0, 0, 0, 0);
+}
+
+#tagline a:hover {
+    background: url("../img/button2.gif") no-repeat;
+    margin: 0 auto;
+}
+
 
 /* ---------------------- Nav Styling ---------------------- */
 
@@ -102,31 +120,13 @@ li {
 
 /* ---------------- Content ---------------- */
 
-#banner_wrap {
+#banner_wrap, #bottom {
     background-color: #FFF;
     width: 95%;
     margin: 0 auto;
     overflow: hidden;
     text-align: center;
     line-height: 10px;
-}
-
-#tagline {
-    padding: 20px 0;
-}
-
-#tagline a {
-    display: block;
-    background: url("../img/button.gif") no-repeat;
-    height: 70px;
-    width: 130px;
-    margin: 0 auto;
-    color: rgba(0, 0, 0, 0);
-}
-
-#tagline a:hover {
-    background: url("../img/button2.gif") no-repeat;
-    margin: 0 auto;
 }
 
 #border {
@@ -142,9 +142,6 @@ li {
     margin: 25px 1%;
 }
 
-
-
-
 #video {
     width: 100%;
     height: 200px;
@@ -154,7 +151,6 @@ li {
 
 footer {
     padding: 10px;
-    color: rgba(0, 0, 0, 0);
 }
 
 
