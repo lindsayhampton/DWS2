@@ -74,7 +74,7 @@ a {
     color: #b33624;
 }
 
-a:hover {
+a:hover, #current {
     color: #7D090A;
 }
 
