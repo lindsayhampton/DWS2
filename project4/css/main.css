@@ -189,10 +189,12 @@ footer {
 @media screen and (max-width: 485px) {
     h1 {
         font-size: 1.5em;
+        font-weight: bold;
     }
 
     h2 {
         font-size: 1.2em;
+        font-weight: bold;
     }
 
     h3 {
@@ -201,10 +203,10 @@ footer {
 
     nav li {
         display: block;
-        padding: none;
+        padding: 0;
     }
 
-    #tagline {
-        clear: both;
+    #banner_wrap {
+        margin-top: 50px;
     }
 }
