@@ -3,6 +3,10 @@
     padding: 0 .96153%;
 }
 
+h1 {
+    padding-left: 49.07692%;
+}
+
 #video, #para {
     width:45%;
     float:left;
@@ -10,8 +14,12 @@
     margin:25px 1%
 }
 
+#video {
+    margin-top: 50px;
+}
 
-#para{
+#para p{
+    line-height: 20px;
     padding-left: 20px;
 }
 
@@ -33,7 +41,8 @@
     }
 
     h1 {
-        font-size: 2.1em;
+        font-size: 2.5em;
+        padding:0;
     }
 
     #para {

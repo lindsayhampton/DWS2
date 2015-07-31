@@ -93,7 +93,6 @@ input[type=submit] {
     border-color: #b4ccce #b33624 #9eb9c2;
     border-radius: 16px;
     outline: 0;
-@include box-sizing(content-box);
 }
 
 
