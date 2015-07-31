@@ -6,11 +6,12 @@
 #video, #para {
     width:45%;
     float:left;
-    text-align:center;
+    text-align:left;
     margin:25px 1%
 }
 
-#para {
+
+#para{
     padding-left: 20px;
 }
 
